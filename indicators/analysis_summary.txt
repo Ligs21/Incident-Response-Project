@@ -1,0 +1,5 @@
+> 1.Repeated failed logins: [IP] ,[count] attempts in [timeframe] ->brute-force pattern
+> 2.Privileged account check: [account],[Failed/Accepted], sudo group: [yes/no]
+> 3.Unknown process: nc(PID[x]) , parent /tmp/.update.sh, running from /tmp, not a registered service
+> 4.Suspicious outbound: 192.168.56.102 -> 192.168.56.103:4444 via nc, non-standard port,persistent connecction 
+Password reset performed for account 'ligs' as part of remediation: Wed Oct 14 09:18:23 PM IST 2026

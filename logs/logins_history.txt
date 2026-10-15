@@ -1,0 +1,15 @@
+ligs     pts/1        Tue Oct 13 01:54 - still logged in    192.168.56.104
+ligs     pts/1        Tue Oct 13 01:49 - still logged in    192.168.56.104
+ligs     pts/4        Tue Oct 13 00:30 - still logged in    192.168.56.104
+ligs     pts/2        Tue Oct 13 00:26 - still logged in    192.168.56.104
+ligs     pts/1        Tue Oct 13 00:12 - still logged in    192.168.56.104
+ligs     tty2         Tue Oct 13 00:05 - still logged in    local
+ligs     tty2         Wed Aug 12 05:49 - still logged in    local
+ligs     tty2         Sun Jul 26 22:23 - 05:48 (16+07:24)   local
+ligs     tty2         Fri Jul 24 21:40 - still logged in    local
+ligs     tty2         Fri Jul 24 21:26 - still logged in    local
+ligs     tty2         Thu Jul 23 22:25 - still logged in    local
+ligs     tty2         Wed Jul 15 23:34 - still logged in    local
+ligs     tty2         Wed Jul 15 19:50 - still logged in    local
+
+wtmpdb begins Wed Jul 15 19:50:20 2026

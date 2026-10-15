@@ -1,0 +1,7 @@
+> IoC Type       |     Value
+> IP(C2 dest)    |  192.168.56.103:4444
+IP(Brute Force)|  192.168.56.103
+Domain         |  None observed(IP-based C2, no DNS used)
+File hash      |950e6fb133397c8a49345418e51cb1b8cecb73bc8833c811d156f0bc5c86ecb8
+Process        | nc (child of .update.sh)
+Targeted acc   | ligs(sudo-privileged)

@@ -1,0 +1,18 @@
+====Incident Timeline ====
+1.Initial brute-force attempts 
+Time : 2026-10.14 20:06:39 - 20:07:33 (+05:30)
+Source : 192.168.56.103 | Target : ligs | Evidence : auth.log( 7 Failed password entries)
+2.Successful login
+Time : 2026-10-14T20:09:48.634664(+05:30) 
+Source : 192.168.56.103/.104 |Account : ligs (sudo privileged)
+3,Suspicious cpmmand execution 
+Commands : whoami,id,cat /etc/passwd
+Time : Not available - audited exec logging not configured (documented limitation)
+4.Malicious script created
+Time : 2026-10-13 01:05:50 (+05:30)
+File : /tmp/.update.sh
+5.Outbound beacon established 
+Connection : 192.168.56.102:33594 -> 192.168.56.103:4444
+Confirmed via: ss -tunap, network_analysis/capture.pcap
+6.Persistence mechanism added 
+Method : crontab @reboot entry (if present)

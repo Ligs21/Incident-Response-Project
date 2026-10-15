@@ -1,0 +1,568 @@
+2026-07-12T18:42:16.550025+00:00 ligs-VirtualBox systemd-logind[1455]: New seat seat0.
+2026-07-12T18:42:16.614171+00:00 ligs-VirtualBox systemd-logind[1455]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-07-12T18:42:16.614486+00:00 ligs-VirtualBox systemd-logind[1455]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-07-12T18:42:16.614554+00:00 ligs-VirtualBox systemd-logind[1455]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-07-12T18:42:21.200625+00:00 ligs-VirtualBox passwd[1716]: password for 'ligs' changed by 'root'
+2026-07-12T18:42:27.393639+00:00 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-07-12T18:42:27.447843+00:00 ligs-VirtualBox systemd-logind[1455]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-07-12T18:42:28.818031+00:00 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-07-12T18:42:28.889525+00:00 ligs-VirtualBox systemd-logind[1455]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-07-12T18:43:12.386552+00:00 ligs-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-07-12T18:43:12.387083+00:00 ligs-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-07-12T18:43:12.525546+00:00 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-12T18:43:12.649460+00:00 ligs-VirtualBox systemd-logind[1455]: New session '2' of user 'ligs' with class 'user' and type 'wayland'.
+2026-07-12T18:43:13.076184+00:00 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-12T18:43:13.134878+00:00 ligs-VirtualBox systemd-logind[1455]: New session '3' of user 'ligs' with class 'manager' and type 'unspecified'.
+2026-07-12T18:43:14.200016+00:00 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-07-12T18:43:34.867094+00:00 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-07-12T18:43:34.999928+00:00 ligs-VirtualBox systemd-logind[1455]: Session c1 logged out. Waiting for processes to exit.
+2026-07-12T18:43:35.095855+00:00 ligs-VirtualBox systemd-logind[1455]: Removed session c1.
+2026-07-12T18:43:44.830547+00:00 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-12T18:43:44.833665+00:00 ligs-VirtualBox pkexec[5301]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-07-12T18:43:45.455106+00:00 ligs-VirtualBox systemd-logind[1455]: Removed session 1.
+2026-07-12T18:43:45.455549+00:00 ligs-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-07-15T19:48:43.975570+05:30 ligs-VirtualBox systemd-logind[1449]: New seat seat0.
+2026-07-15T19:48:43.992566+05:30 ligs-VirtualBox systemd-logind[1449]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-07-15T19:48:44.014752+05:30 ligs-VirtualBox systemd-logind[1449]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-07-15T19:48:44.025595+05:30 ligs-VirtualBox systemd-logind[1449]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-07-15T19:48:50.291581+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-07-15T19:48:50.370003+05:30 ligs-VirtualBox systemd-logind[1449]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-07-15T19:48:50.660999+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-07-15T19:48:50.665762+05:30 ligs-VirtualBox systemd-logind[1449]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-07-15T19:49:22.207388+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-07-15T19:49:22.211956+05:30 ligs-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-07-15T19:49:22.516190+05:30 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-15T19:49:22.642549+05:30 ligs-VirtualBox systemd-logind[1449]: New session '2' of user 'ligs' with class 'user' and type 'wayland'.
+2026-07-15T19:49:23.427079+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-15T19:49:23.490434+05:30 ligs-VirtualBox systemd-logind[1449]: New session '3' of user 'ligs' with class 'manager' and type 'unspecified'.
+2026-07-15T19:49:28.401782+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-07-15T19:51:03.176193+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-07-15T19:51:03.570082+05:30 ligs-VirtualBox systemd-logind[1449]: Session c1 logged out. Waiting for processes to exit.
+2026-07-15T19:51:03.633942+05:30 ligs-VirtualBox systemd-logind[1449]: Removed session c1.
+2026-07-15T19:51:15.584447+05:30 ligs-VirtualBox systemd-logind[1449]: Removed session 1.
+2026-07-15T20:47:01.096318+05:30 ligs-VirtualBox dbus-daemon[2957]: [session uid=1000 pid=2957 pidfd=5] Failed to activate service 'org.gnome.Shell.Screencast': timed out (service_start_timeout=120000ms)
+2026-07-15T20:47:01.110342+05:30 ligs-VirtualBox CRON[4959]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-15T20:47:01.110768+05:30 ligs-VirtualBox CRON[4959]: pam_unix(cron:session): session closed for user root
+2026-07-15T20:47:20.290420+05:30 ligs-VirtualBox dbus-daemon[1401]: [system] Failed to activate service 'org.freedesktop.fwupd': timed out (service_start_timeout=25000ms)
+2026-07-15T20:47:37.932684+05:30 ligs-VirtualBox dbus-daemon[1401]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-07-15T20:47:50.474330+05:30 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-15T20:47:50.539971+05:30 ligs-VirtualBox pkexec[5382]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-07-15T21:17:01.978425+05:30 ligs-VirtualBox CRON[6806]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-15T21:17:02.003742+05:30 ligs-VirtualBox CRON[6806]: pam_unix(cron:session): session closed for user root
+2026-07-15T21:30:01.109473+05:30 ligs-VirtualBox CRON[7032]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-15T21:30:01.149267+05:30 ligs-VirtualBox CRON[7032]: pam_unix(cron:session): session closed for user root
+2026-07-15T23:33:28.803540+05:30 ligs-VirtualBox systemd-logind[1304]: New seat seat0.
+2026-07-15T23:33:28.881000+05:30 ligs-VirtualBox systemd-logind[1304]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-07-15T23:33:28.913864+05:30 ligs-VirtualBox systemd-logind[1304]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-07-15T23:33:28.918537+05:30 ligs-VirtualBox systemd-logind[1304]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-07-15T23:33:39.489289+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-07-15T23:33:39.524349+05:30 ligs-VirtualBox systemd-logind[1304]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-07-15T23:33:39.719246+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-07-15T23:33:39.726895+05:30 ligs-VirtualBox systemd-logind[1304]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-07-15T23:34:16.879590+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-07-15T23:34:16.879748+05:30 ligs-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-07-15T23:34:17.097717+05:30 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-15T23:34:17.263325+05:30 ligs-VirtualBox systemd-logind[1304]: New session '2' of user 'ligs' with class 'user' and type 'wayland'.
+2026-07-15T23:34:17.744364+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-15T23:34:17.800515+05:30 ligs-VirtualBox systemd-logind[1304]: New session '3' of user 'ligs' with class 'manager' and type 'unspecified'.
+2026-07-15T23:34:20.064279+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-07-15T23:34:42.534613+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-07-15T23:34:42.701161+05:30 ligs-VirtualBox systemd-logind[1304]: Session c1 logged out. Waiting for processes to exit.
+2026-07-15T23:34:42.811795+05:30 ligs-VirtualBox systemd-logind[1304]: Removed session c1.
+                                                                                          2026-07-23T22:21:45.743515+05:30 ligs-VirtualBox systemd-logind[1138]: New seat seat0.
+2026-07-23T22:21:45.830239+05:30 ligs-VirtualBox systemd-logind[1138]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-07-23T22:21:45.847951+05:30 ligs-VirtualBox systemd-logind[1138]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-07-23T22:21:45.848063+05:30 ligs-VirtualBox systemd-logind[1138]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-07-23T22:22:12.408495+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-07-23T22:22:12.815237+05:30 ligs-VirtualBox systemd-logind[1138]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-07-23T22:22:13.455178+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-07-23T22:22:13.463574+05:30 ligs-VirtualBox systemd-logind[1138]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-07-23T22:23:09.382900+05:30 ligs-VirtualBox dbus-daemon[1074]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-07-23T22:24:21.547065+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-07-23T22:24:21.547427+05:30 ligs-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-07-23T22:24:21.588946+05:30 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-23T22:24:21.614485+05:30 ligs-VirtualBox systemd-logind[1138]: New session '2' of user 'ligs' with class 'user' and type 'wayland'.
+2026-07-23T22:24:22.274030+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-23T22:24:22.369773+05:30 ligs-VirtualBox systemd-logind[1138]: New session '3' of user 'ligs' with class 'manager' and type 'unspecified'.
+2026-07-23T22:24:24.822319+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-07-23T22:26:46.911546+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-07-23T22:26:47.138696+05:30 ligs-VirtualBox systemd-logind[1138]: Session c1 logged out. Waiting for processes to exit.
+2026-07-23T22:26:47.155071+05:30 ligs-VirtualBox systemd-logind[1138]: Removed session c1.
+2026-07-23T22:26:58.799655+05:30 ligs-VirtualBox systemd-logind[1138]: Removed session 1.
+2026-07-23T22:27:34.361903+05:30 ligs-VirtualBox dbus-daemon[3102]: [session uid=1000 pid=3102 pidfd=5] Failed to activate service 'org.gnome.Shell.Screencast': timed out (service_start_timeout=120000ms)
+2026-07-23T22:28:18.229931+05:30 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-23T22:28:18.360608+05:30 ligs-VirtualBox pkexec[5065]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-07-23T22:30:02.960518+05:30 ligs-VirtualBox CRON[5326]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-23T22:30:02.968719+05:30 ligs-VirtualBox CRON[5326]: pam_unix(cron:session): session closed for user root
+2026-07-23T23:17:01.209762+05:30 ligs-VirtualBox CRON[6386]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-23T23:17:01.225295+05:30 ligs-VirtualBox CRON[6386]: pam_unix(cron:session): session closed for user root
+2026-07-23T23:30:01.356691+05:30 ligs-VirtualBox CRON[6765]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-23T23:30:01.361626+05:30 ligs-VirtualBox CRON[6765]: pam_unix(cron:session): session closed for user root
+2026-07-24T21:25:55.538331+05:30 ligs-VirtualBox systemd-logind[1441]: New seat seat0.
+2026-07-24T21:25:55.583245+05:30 ligs-VirtualBox systemd-logind[1441]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-07-24T21:25:55.601280+05:30 ligs-VirtualBox systemd-logind[1441]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-07-24T21:25:55.601333+05:30 ligs-VirtualBox systemd-logind[1441]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-07-24T21:26:03.869973+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-07-24T21:26:03.929027+05:30 ligs-VirtualBox systemd-logind[1441]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-07-24T21:26:04.164804+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-07-24T21:26:04.214765+05:30 ligs-VirtualBox systemd-logind[1441]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-07-24T21:26:34.851011+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-07-24T21:26:34.851128+05:30 ligs-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-07-24T21:26:35.036704+05:30 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-24T21:26:35.203276+05:30 ligs-VirtualBox systemd-logind[1441]: New session '2' of user 'ligs' with class 'user' and type 'wayland'.
+2026-07-24T21:26:35.640821+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-24T21:26:35.668569+05:30 ligs-VirtualBox systemd-logind[1441]: New session '3' of user 'ligs' with class 'manager' and type 'unspecified'.
+2026-07-24T21:26:37.896233+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-07-24T21:27:00.820623+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-07-24T21:27:01.045182+05:30 ligs-VirtualBox systemd-logind[1441]: Session c1 logged out. Waiting for processes to exit.
+2026-07-24T21:27:01.094511+05:30 ligs-VirtualBox systemd-logind[1441]: Removed session c1.
+2026-07-24T21:27:11.479605+05:30 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-24T21:27:11.579050+05:30 ligs-VirtualBox pkexec[4309]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-07-24T21:27:11.735672+05:30 ligs-VirtualBox systemd-logind[1441]: Removed session 1.
+2026-07-24T21:30:02.717330+05:30 ligs-VirtualBox CRON[4933]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-24T21:30:02.724341+05:30 ligs-VirtualBox CRON[4933]: pam_unix(cron:session): session closed for user root
+2026-07-24T21:39:00.904488+05:30 ligs-VirtualBox systemd-logind[1281]: New seat seat0.
+2026-07-24T21:39:02.440957+05:30 ligs-VirtualBox systemd-logind[1281]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-07-24T21:39:02.441744+05:30 ligs-VirtualBox systemd-logind[1281]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-07-24T21:39:02.441784+05:30 ligs-VirtualBox systemd-logind[1281]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-07-24T21:39:10.517984+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-07-24T21:39:11.125185+05:30 ligs-VirtualBox systemd-logind[1281]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-07-24T21:39:12.706488+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-07-24T21:39:12.814577+05:30 ligs-VirtualBox systemd-logind[1281]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-07-24T21:39:38.668730+05:30 ligs-VirtualBox dbus-daemon[1195]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-07-24T21:39:50.983919+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-07-24T21:39:50.984034+05:30 ligs-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-07-24T21:39:51.316787+05:30 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-24T21:39:51.349592+05:30 ligs-VirtualBox systemd-logind[1281]: New session '2' of user 'ligs' with class 'user' and type 'wayland'.
+2026-07-24T21:39:51.701645+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-24T21:39:51.703512+05:30 ligs-VirtualBox systemd-logind[1281]: New session '3' of user 'ligs' with class 'manager' and type 'unspecified'.
+2026-07-24T21:39:54.365698+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-07-24T21:40:47.282136+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-07-24T21:40:47.381942+05:30 ligs-VirtualBox systemd-logind[1281]: Session c1 logged out. Waiting for processes to exit.
+2026-07-24T21:40:47.645006+05:30 ligs-VirtualBox systemd-logind[1281]: Removed session c1.
+2026-07-24T21:41:03.467482+05:30 ligs-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-07-24T21:41:03.493312+05:30 ligs-VirtualBox systemd-logind[1281]: Removed session 1.
+2026-07-24T21:41:59.218248+05:30 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-24T21:41:59.263965+05:30 ligs-VirtualBox pkexec[4821]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-07-24T21:50:14.658600+05:30 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-24T21:50:14.669125+05:30 ligs-VirtualBox pkexec[6148]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-07-24T22:17:04.524226+05:30 ligs-VirtualBox CRON[6371]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-24T22:17:04.535329+05:30 ligs-VirtualBox CRON[6371]: pam_unix(cron:session): session closed for user root
+2026-07-24T22:30:04.104004+05:30 ligs-VirtualBox CRON[6467]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-24T22:30:04.136468+05:30 ligs-VirtualBox CRON[6467]: pam_unix(cron:session): session closed for user root
+2026-07-26T22:17:19.081027+05:30 ligs-VirtualBox systemd-logind[1319]: New seat seat0.
+2026-07-26T22:17:19.220348+05:30 ligs-VirtualBox systemd-logind[1319]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-07-26T22:17:19.220849+05:30 ligs-VirtualBox systemd-logind[1319]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-07-26T22:17:19.220982+05:30 ligs-VirtualBox systemd-logind[1319]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-07-26T22:17:32.134699+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-07-26T22:17:32.463749+05:30 ligs-VirtualBox systemd-logind[1319]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-07-26T22:17:34.263924+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-07-26T22:17:34.488796+05:30 ligs-VirtualBox systemd-logind[1319]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-07-26T22:23:04.106676+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-07-26T22:23:04.107275+05:30 ligs-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-07-26T22:23:04.234117+05:30 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-26T22:23:04.399744+05:30 ligs-VirtualBox systemd-logind[1319]: New session '2' of user 'ligs' with class 'user' and type 'wayland'.
+2026-07-26T22:23:04.860752+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-07-26T22:23:04.924938+05:30 ligs-VirtualBox systemd-logind[1319]: New session '3' of user 'ligs' with class 'manager' and type 'unspecified'.
+2026-07-26T22:23:07.545862+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-07-26T22:24:14.763350+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-07-26T22:24:15.244092+05:30 ligs-VirtualBox systemd-logind[1319]: Session c1 logged out. Waiting for processes to exit.
+2026-07-26T22:24:15.323410+05:30 ligs-VirtualBox systemd-logind[1319]: Removed session c1.
+2026-07-26T22:24:26.341140+05:30 ligs-VirtualBox systemd-logind[1319]: Removed session 1.
+2026-07-26T22:24:29.326856+05:30 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-26T22:24:29.582699+05:30 ligs-VirtualBox pkexec[4652]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-07-26T22:25:40.845605+05:30 ligs-VirtualBox dbus-daemon[3136]: [session uid=1000 pid=3136 pidfd=5] Failed to activate service 'org.gnome.Shell.Screencast': timed out (service_start_timeout=120000ms)
+2026-07-26T22:30:02.612642+05:30 ligs-VirtualBox CRON[6067]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-26T22:30:02.620749+05:30 ligs-VirtualBox CRON[6067]: pam_unix(cron:session): session closed for user root
+2026-07-26T22:57:01.719941+05:30 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=ligs uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=ligs
+2026-07-26T22:57:08.417455+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-07-26T23:04:26.393287+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-07-26T23:04:31.780639+05:30 ligs-VirtualBox dbus-daemon[1220]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-07-26T23:17:02.306822+05:30 ligs-VirtualBox CRON[7091]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-26T23:17:02.332912+05:30 ligs-VirtualBox CRON[7091]: pam_unix(cron:session): session closed for user root
+2026-07-26T23:30:01.111201+05:30 ligs-VirtualBox CRON[7160]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-26T23:30:01.116946+05:30 ligs-VirtualBox CRON[7160]: pam_unix(cron:session): session closed for user root
+2026-07-27T00:08:14.862348+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-07-27T00:10:10.867495+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-27T00:10:10.868382+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/apt update
+2026-07-27T00:10:28.538399+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T00:13:14.853154+05:30 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-27T00:13:14.862590+05:30 ligs-VirtualBox pkexec[8109]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-07-27T00:16:48.031288+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-27T00:16:48.031923+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/apt install openssh-server -y
+2026-07-27T00:16:53.672169+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T00:17:01.598719+05:30 ligs-VirtualBox CRON[8248]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-27T00:17:01.619023+05:30 ligs-VirtualBox CRON[8248]: pam_unix(cron:session): session closed for user root
+2026-07-27T00:19:07.126439+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-27T00:19:07.131965+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/timedatectl 
+2026-07-27T00:19:07.279818+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T00:19:52.428308+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-27T00:19:52.428806+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/timedatectl set-ntp true
+2026-07-27T00:19:52.885329+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T00:20:50.545476+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-07-27T00:20:50.546246+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/systemctl restart systemd-timesyncd
+2026-07-27T00:20:50.600827+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T00:23:24.720510+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T00:59:00.000535+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/date -s 2026-08-12 00:59:00
+2026-08-12T00:59:00.013260+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T00:59:28.842033+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T00:59:28.842459+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/apt update
+2026-08-12T00:59:47.592482+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:00:29.601380+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:00:29.602286+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/apt install openssh-server -y
+2026-08-12T01:00:46.940228+05:30 ligs-VirtualBox (systemd-stdio-bridge): pam_unix(login:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-08-12T01:00:48.037381+05:30 ligs-VirtualBox (sd-pam): pam_unix(login:session): session closed for user ligs
+2026-08-12T01:01:03.755223+05:30 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:01:03.764280+05:30 ligs-VirtualBox pkexec[9320]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-12T01:01:23.711757+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:01:51.783264+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:01:51.793104+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/systemctl enable --now ssh
+2026-08-12T01:01:54.962841+05:30 ligs-VirtualBox sshd[10212]: Server listening on 0.0.0.0 port 22.
+2026-08-12T01:01:54.965208+05:30 ligs-VirtualBox sshd[10212]: Server listening on :: port 22.
+2026-08-12T01:01:54.969521+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:02:43.917602+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:02:43.931551+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-08-12T01:02:47.846153+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:03:51.352672+05:30 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:03:51.358278+05:30 ligs-VirtualBox pkexec[10253]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-12T01:04:38.898353+05:30 ligs-VirtualBox unix_chkpwd[10286]: password check failed for user (ligs)
+2026-08-12T01:04:38.900836+05:30 ligs-VirtualBox sshd-session[10284]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.103  user=ligs
+2026-08-12T01:04:41.903221+05:30 ligs-VirtualBox sshd-session[10284]: Failed password for ligs from 192.168.56.103 port 59844 ssh2
+2026-08-12T01:04:49.032932+05:30 ligs-VirtualBox unix_chkpwd[10287]: password check failed for user (ligs)
+2026-08-12T01:04:51.853498+05:30 ligs-VirtualBox sshd-session[10284]: Failed password for ligs from 192.168.56.103 port 59844 ssh2
+2026-08-12T01:04:56.638868+05:30 ligs-VirtualBox unix_chkpwd[10288]: password check failed for user (ligs)
+2026-08-12T01:05:00.649190+05:30 ligs-VirtualBox sshd-session[10284]: Failed password for ligs from 192.168.56.103 port 59844 ssh2
+2026-08-12T01:05:03.470516+05:30 ligs-VirtualBox sshd-session[10284]: Connection closed by authenticating user ligs 192.168.56.103 port 59844 [preauth]
+2026-08-12T01:05:03.471295+05:30 ligs-VirtualBox sshd-session[10284]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.103  user=ligs
+2026-08-12T01:12:31.754611+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:12:31.781326+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/ligs/Log-Project/collected_logs/
+2026-08-12T01:12:31.787024+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:13:52.030461+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:13:52.068599+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:14:00.211436+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:14:00.212621+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/collected_logs ; USER=root ; COMMAND=/usr/bin/cat auth.log
+2026-08-12T01:14:00.527727+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:15:34.707194+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:15:34.708203+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/collected_logs ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2026-08-12T01:15:34.718288+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:15:52.460905+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:15:52.462477+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/collected_logs ; USER=root ; COMMAND=/usr/bin/grep -a sshd /var/log/auth.log
+2026-08-12T01:15:52.466815+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:16:17.798348+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:16:17.799257+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:16:25.894052+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:16:25.898396+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/collected_logs ; USER=root ; COMMAND=/usr/bin/cat ssh_log.txt
+2026-08-12T01:16:25.916761+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:16:38.681502+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:16:38.682356+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/collected_logs ; USER=root ; COMMAND=/usr/bin/cat ssh_logs.txt
+2026-08-12T01:16:38.694967+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:17:01.511884+05:30 ligs-VirtualBox CRON[10557]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-12T01:17:01.533368+05:30 ligs-VirtualBox CRON[10557]: pam_unix(cron:session): session closed for user root
+2026-08-12T01:20:06.882466+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:20:06.901964+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/collected_logs ; USER=root ; COMMAND=/usr/bin/grep -a Failed password /var/log/auth.log
+2026-08-12T01:20:06.902475+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:20:41.657421+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:20:41.658458+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/cat failed_login_attempts.txt
+2026-08-12T01:20:41.668222+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:23:55.214847+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:23:55.230578+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/cat failed_login_attempts.txt
+2026-08-12T01:23:55.267359+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:25:37.963730+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:25:37.964129+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -asudo: /var/log/auth.log
+2026-08-12T01:25:37.994243+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:25:52.091586+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:25:52.093552+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep sudo: /var/log/auth.log
+2026-08-12T01:25:52.118350+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:26:05.065929+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:26:05.066223+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -a sudo: /var/log/auth.log
+2026-08-12T01:26:05.078710+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:26:31.044724+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:26:31.045260+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/cat privilege_escalation.txt
+2026-08-12T01:26:31.056765+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:28:24.059537+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:28:24.061120+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -a Accepted password /var/log/auth.log
+2026-08-12T01:28:24.069244+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:28:50.178143+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:28:50.193503+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/cat successful_login.txt
+2026-08-12T01:28:50.195173+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:31:40.401247+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:31:40.401642+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -a Failed password /var/log/auth.log
+2026-08-12T01:31:40.410684+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:32:02.008931+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:32:02.009158+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/cat suspicious_ip.txt
+2026-08-12T01:32:02.042559+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:33:13.605199+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:33:13.605567+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -a Failed password /var/log/auth.log
+2026-08-12T01:33:13.610888+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:33:28.776874+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:33:28.777984+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/cat suspicious_ip.txt
+2026-08-12T01:33:28.903796+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:34:47.649176+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:34:47.664160+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep Failed password /var/log/auth.log
+2026-08-12T01:34:47.664752+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:35:03.348811+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:35:03.349565+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -a Failed password /var/log/auth.log
+2026-08-12T01:35:03.360155+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:38:19.103867+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:38:19.105007+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep Failed password /var/log/auth.log
+2026-08-12T01:38:19.112822+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:38:23.161096+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:38:23.176766+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -a Failed password /home/ligs/Log-Project/collected
+2026-08-12T01:38:23.231304+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:38:33.954590+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:38:33.964365+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -aFailed password /var/log/auth.log
+2026-08-12T01:38:33.982102+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:38:46.225281+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:38:46.276054+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -aFailed password /var/log/auth.log
+2026-08-12T01:38:46.304671+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:38:52.637248+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:38:52.641410+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -aFailed password /var/log/auth.log
+2026-08-12T01:38:52.652011+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:39:40.997384+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:39:41.009971+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/cat suspicious.txt
+2026-08-12T01:39:41.050996+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:40:05.042405+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:40:05.045151+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/cat suspicious_ip.txt
+2026-08-12T01:40:05.058456+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:42:34.794571+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:42:34.795771+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -a Failed password /var/log/auth.log
+2026-08-12T01:42:34.822867+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:45:42.993133+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:45:43.001753+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep Failed password /var/log/auth.log
+2026-08-12T01:45:43.021047+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:45:51.642803+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:45:51.643203+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -aFailed password /var/log/auth.log
+2026-08-12T01:45:51.653107+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:47:02.717998+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:47:02.718706+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -aFailed password /var/log/auth.log
+2026-08-12T01:47:02.726191+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:50:36.501126+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:50:36.517341+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -aFailed password /var/log/auth.log
+2026-08-12T01:50:36.556624+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:50:55.482520+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:50:55.483347+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/cat suspicious_ip.txt
+2026-08-12T01:50:55.495068+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:54:09.233024+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:54:09.316218+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -aFailed password /var/log/auth.log
+2026-08-12T01:54:09.317921+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:55:46.788908+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:55:46.789407+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -aFailed password /var/log/auth.log
+2026-08-12T01:55:46.841122+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:57:53.009972+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:57:53.011390+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep Failed password /var/log/auth.log
+2026-08-12T01:57:53.076616+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:58:28.336158+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:58:28.336578+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -aFailed password /var/log/auth.log
+2026-08-12T01:58:28.358327+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T01:59:04.598467+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T01:59:04.615910+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -aFailed password /var/log/auth.log
+2026-08-12T01:59:04.618389+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T02:06:00.060404+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T02:06:00.085139+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/grep -aFailed password /var/log/auth.log
+2026-08-12T02:06:00.131367+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T02:07:02.128206+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T02:07:02.128828+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh --no-pager
+2026-08-12T02:07:02.273074+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T02:16:04.652187+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-12T02:17:01.569314+05:30 ligs-VirtualBox CRON[12001]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-12T02:17:01.584816+05:30 ligs-VirtualBox CRON[12001]: pam_unix(cron:session): session closed for user root
+2026-08-12T02:21:53.103608+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T02:21:53.109157+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh --no-pager
+2026-08-12T02:21:53.123650+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T02:22:56.311048+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T02:22:56.329720+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/cat /home/ligs/Log-Project/analysis_results/suspicious_ips.txt
+2026-08-12T02:22:56.330755+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T02:23:58.524276+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T02:23:58.530243+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Log-Project/analysis_results ; USER=root ; COMMAND=/usr/bin/rm suspicious_ip.txt
+2026-08-12T02:23:58.538965+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-12T02:43:54.851858+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-12T02:55:00.913877+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-12T03:10:01.800023+05:30 ligs-VirtualBox CRON[16378]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-12T03:10:01.827667+05:30 ligs-VirtualBox CRON[16378]: pam_unix(cron:session): session closed for user root
+2026-08-12T03:12:38.311784+05:30 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=ligs uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=ligs
+2026-08-12T03:12:44.074390+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-12T03:17:02.233509+05:30 ligs-VirtualBox CRON[16874]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-12T03:17:02.277863+05:30 ligs-VirtualBox CRON[16874]: pam_unix(cron:session): session closed for user root
+2026-08-12T03:58:02.171659+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-12T04:17:01.416268+05:30 ligs-VirtualBox CRON[18134]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-12T04:17:01.453959+05:30 ligs-VirtualBox CRON[18134]: pam_unix(cron:session): session closed for user root
+2026-08-12T04:26:21.849001+05:30 ligs-VirtualBox systemd-logind[18217]: New seat seat0.
+2026-08-12T04:26:22.153378+05:30 ligs-VirtualBox systemd-logind[18217]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-12T04:26:22.161083+05:30 ligs-VirtualBox systemd-logind[18217]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-12T04:26:22.181652+05:30 ligs-VirtualBox systemd-logind[18217]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-12T04:26:22.360566+05:30 ligs-VirtualBox systemd-logind[18217]: New session '3' of user 'ligs' with class 'manager' and type 'unspecified'.
+2026-08-12T04:26:22.381756+05:30 ligs-VirtualBox systemd-logind[18217]: New session '2' of user 'ligs' with class 'user' and type 'wayland'.
+2026-08-12T04:26:23.641682+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60579) by (uid=0)
+2026-08-12T04:26:23.841462+05:30 ligs-VirtualBox systemd-logind[18217]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-08-12T04:26:34.275962+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60579) by gdm-greeter(uid=0)
+2026-08-12T04:26:34.306056+05:30 ligs-VirtualBox systemd-logind[18217]: New session '14' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-08-12T04:50:28.112519+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-12T04:50:41.912942+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-08-12T04:50:41.924340+05:30 ligs-VirtualBox systemd-logind[18217]: Session c1 logged out. Waiting for processes to exit.
+2026-08-12T04:50:41.932834+05:30 ligs-VirtualBox systemd-logind[18217]: Removed session c1.
+2026-08-12T04:50:55.718438+05:30 ligs-VirtualBox systemd-logind[18217]: Removed session 14.
+2026-08-12T04:50:55.719170+05:30 ligs-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-08-12T05:17:02.504968+05:30 ligs-VirtualBox CRON[20217]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-12T05:17:02.534398+05:30 ligs-VirtualBox CRON[20217]: pam_unix(cron:session): session closed for user root
+2026-08-12T05:47:38.748982+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-12T05:48:27.515616+05:30 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:session): session closed for user ligs
+2026-08-12T05:48:27.665197+05:30 ligs-VirtualBox systemd-logind[18217]: Session 2 logged out. Waiting for processes to exit.
+2026-08-12T05:48:27.730106+05:30 ligs-VirtualBox systemd-logind[18217]: Removed session 2.
+2026-08-12T05:48:28.020479+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60580) by (uid=0)
+2026-08-12T05:48:28.564467+05:30 ligs-VirtualBox systemd-logind[18217]: New session 'c2' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-08-12T05:48:31.543814+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60580) by gdm-greeter(uid=0)
+2026-08-12T05:48:31.666888+05:30 ligs-VirtualBox systemd-logind[18217]: New session '16' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-08-12T05:48:40.937606+05:30 ligs-VirtualBox systemd-logind[18217]: Removed session 3.
+2026-08-12T05:49:42.671873+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-12T05:49:42.672326+05:30 ligs-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-12T05:49:42.852769+05:30 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-08-12T05:49:43.039445+05:30 ligs-VirtualBox systemd-logind[18217]: New session '17' of user 'ligs' with class 'user' and type 'wayland'.
+2026-08-12T05:49:43.430558+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-08-12T05:49:43.436364+05:30 ligs-VirtualBox systemd-logind[18217]: New session '18' of user 'ligs' with class 'manager' and type 'unspecified'.
+2026-08-12T05:49:46.104647+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-12T05:50:14.828241+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-08-12T05:50:14.954530+05:30 ligs-VirtualBox systemd-logind[18217]: Session c2 logged out. Waiting for processes to exit.
+2026-08-12T05:50:15.235242+05:30 ligs-VirtualBox systemd-logind[18217]: Removed session c2.
+2026-08-12T05:50:20.925015+05:30 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-08-12T05:50:20.931296+05:30 ligs-VirtualBox pkexec[23750]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-12T05:50:25.932355+05:30 ligs-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-08-12T05:50:25.932845+05:30 ligs-VirtualBox systemd-logind[18217]: Removed session 16.
+2026-10-13T00:05:00.521263+05:30 ligs-VirtualBox systemd-logind[1389]: New seat seat0.
+2026-10-13T00:05:00.538320+05:30 ligs-VirtualBox systemd-logind[1389]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-10-13T00:05:00.543879+05:30 ligs-VirtualBox systemd-logind[1389]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-10-13T00:05:00.544055+05:30 ligs-VirtualBox systemd-logind[1389]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-10-13T00:05:02.491960+05:30 ligs-VirtualBox sshd[1606]: Server listening on 0.0.0.0 port 22.
+2026-10-13T00:05:02.492408+05:30 ligs-VirtualBox sshd[1606]: Server listening on :: port 22.
+2026-10-13T00:05:03.496615+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-13T00:05:03.704764+05:30 ligs-VirtualBox systemd-logind[1389]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-13T00:05:03.880744+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-13T00:05:03.887888+05:30 ligs-VirtualBox systemd-logind[1389]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-13T00:05:22.103486+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-13T00:05:22.103611+05:30 ligs-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-13T00:05:22.172009+05:30 ligs-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-10-13T00:05:22.231499+05:30 ligs-VirtualBox systemd-logind[1389]: New session '2' of user 'ligs' with class 'user' and type 'wayland'.
+2026-10-13T00:05:22.421633+05:30 ligs-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-10-13T00:05:22.436564+05:30 ligs-VirtualBox systemd-logind[1389]: New session '3' of user 'ligs' with class 'manager' and type 'unspecified'.
+2026-10-13T00:05:23.650643+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-10-13T00:05:32.347386+05:30 ligs-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-13T00:05:32.366673+05:30 ligs-VirtualBox systemd-logind[1389]: Session c1 logged out. Waiting for processes to exit.
+2026-10-13T00:05:32.461359+05:30 ligs-VirtualBox systemd-logind[1389]: Removed session c1.
+2026-10-13T00:05:36.170896+05:30 ligs-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-10-13T00:05:36.174161+05:30 ligs-VirtualBox pkexec[4066]: ligs: Executing command [USER=root] [TTY=unknown] [CWD=/home/ligs] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-10-13T00:05:47.529137+05:30 ligs-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-10-13T00:05:47.989130+05:30 ligs-VirtualBox systemd-logind[1389]: Removed session 1.
+2026-10-13T00:12:33.719791+05:30 ligs-VirtualBox sshd-session[6662]: Accepted password for ligs from 192.168.56.104 port 57460 ssh2
+2026-10-13T00:12:33.728607+05:30 ligs-VirtualBox sshd-session[6662]: pam_unix(sshd:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-10-13T00:12:33.802093+05:30 ligs-VirtualBox systemd-logind[1389]: New session '4' of user 'ligs' with class 'user' and type 'tty'.
+2026-10-13T00:17:01.862392+05:30 ligs-VirtualBox CRON[6898]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-13T00:17:01.880391+05:30 ligs-VirtualBox CRON[6898]: pam_unix(cron:session): session closed for user root
+2026-10-13T00:25:43.818450+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-10-13T00:26:19.651133+05:30 ligs-VirtualBox sshd-session[7170]: Accepted password for ligs from 192.168.56.104 port 44670 ssh2
+2026-10-13T00:26:19.654302+05:30 ligs-VirtualBox sshd-session[7170]: pam_unix(sshd:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-10-13T00:26:19.686022+05:30 ligs-VirtualBox systemd-logind[1389]: New session '6' of user 'ligs' with class 'user' and type 'tty'.
+2026-10-13T00:26:46.302721+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-10-13T00:26:46.313615+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/2 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-10-13T00:30:24.083500+05:30 ligs-VirtualBox sshd-session[7316]: Invalid user wronguser from 192.168.56.104 port 46170
+2026-10-13T00:30:35.300033+05:30 ligs-VirtualBox sshd-session[7316]: Connection closed by invalid user wronguser 192.168.56.104 port 46170 [preauth]
+2026-10-13T00:30:57.217511+05:30 ligs-VirtualBox sshd-session[7319]: Accepted password for ligs from 192.168.56.104 port 59230 ssh2
+2026-10-13T00:30:57.226160+05:30 ligs-VirtualBox sshd-session[7319]: pam_unix(sshd:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-10-13T00:30:57.265684+05:30 ligs-VirtualBox systemd-logind[1389]: New session '7' of user 'ligs' with class 'user' and type 'tty'.
+2026-10-13T00:40:14.603455+05:30 ligs-VirtualBox dbus-daemon[1339]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-10-13T00:54:46.040438+05:30 ligs-VirtualBox sshd-session[6726]: Read error from remote host 192.168.56.104 port 57460: Connection reset by peer
+2026-10-13T00:54:46.102431+05:30 ligs-VirtualBox sshd-session[7208]: Read error from remote host 192.168.56.104 port 44670: Connection reset by peer
+2026-10-13T00:54:46.126662+05:30 ligs-VirtualBox sshd-session[6662]: pam_unix(sshd:session): session closed for user ligs
+2026-10-13T00:54:46.145362+05:30 ligs-VirtualBox sshd-session[7170]: pam_unix(sshd:session): session closed for user ligs
+2026-10-13T00:54:46.203451+05:30 ligs-VirtualBox sshd-session[6662]: syslogin_perform_logout: logout() returned an error
+2026-10-13T00:54:46.205005+05:30 ligs-VirtualBox sshd-session[7170]: syslogin_perform_logout: logout() returned an error
+2026-10-13T00:54:46.230638+05:30 ligs-VirtualBox systemd-logind[1389]: Session 6 logged out. Waiting for processes to exit.
+2026-10-13T00:54:46.342673+05:30 ligs-VirtualBox systemd-logind[1389]: Session 4 logged out. Waiting for processes to exit.
+2026-10-13T00:54:46.360615+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T00:54:46.400732+05:30 ligs-VirtualBox systemd-logind[1389]: Removed session 6.
+2026-10-13T00:59:59.921112+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-10-13T01:11:32.257117+05:30 ligs-VirtualBox unix_chkpwd[9423]: password check failed for user (ligs)
+2026-10-13T01:11:32.262612+05:30 ligs-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname=ligs uid=1000 euid=0 tty=/dev/pts/0 ruser=ligs rhost=  user=ligs
+2026-10-13T01:13:06.960618+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-10-13T01:13:06.968305+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/ss -tunap
+2026-10-13T01:13:07.430731+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T01:17:01.906713+05:30 ligs-VirtualBox CRON[9779]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-13T01:17:01.918206+05:30 ligs-VirtualBox CRON[9779]: pam_unix(cron:session): session closed for user root
+2026-10-13T01:29:24.049724+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-10-13T01:29:24.068044+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/grep Failed password /var/log/auth.log
+2026-10-13T01:29:24.068992+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T01:29:51.096635+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-10-13T01:29:51.098361+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/grep -a Failed password /var/log/auth.log
+2026-10-13T01:29:51.102897+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T01:31:57.120676+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-10-13T01:31:57.122451+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/grep -a Failed password /var/log/auth.log
+2026-10-13T01:31:57.125945+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T01:33:02.542705+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-10-13T01:33:02.556215+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/ss -tunap
+2026-10-13T01:33:02.673831+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T01:39:25.004451+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-10-13T01:39:25.011498+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs ; USER=root ; COMMAND=/usr/bin/ss -tunap
+2026-10-13T01:39:25.051744+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T01:48:14.405516+05:30 ligs-VirtualBox sshd-session[11787]: Accepted password for ligs from 192.168.56.104 port 58732 ssh2
+2026-10-13T01:48:14.412114+05:30 ligs-VirtualBox sshd-session[11787]: pam_unix(sshd:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-10-13T01:48:14.493823+05:30 ligs-VirtualBox systemd-logind[1389]: New session '9' of user 'ligs' with class 'user' and type 'tty'.
+2026-10-13T01:48:15.011288+05:30 ligs-VirtualBox sudo: pam_unix(sudo:auth): conversation failed
+2026-10-13T01:48:15.032010+05:30 ligs-VirtualBox sudo: pam_unix(sudo:auth): auth could not identify password for [ligs]
+2026-10-13T01:48:15.033475+05:30 ligs-VirtualBox sshd-session[11855]: Received disconnect from 192.168.56.104 port 58732:11: disconnected by user
+2026-10-13T01:48:15.034680+05:30 ligs-VirtualBox sshd-session[11855]: Disconnected from user ligs 192.168.56.104 port 58732
+2026-10-13T01:48:15.036159+05:30 ligs-VirtualBox sshd-session[11787]: pam_unix(sshd:session): session closed for user ligs
+2026-10-13T01:48:15.044421+05:30 ligs-VirtualBox systemd-logind[1389]: Session 9 logged out. Waiting for processes to exit.
+2026-10-13T01:48:15.050474+05:30 ligs-VirtualBox systemd-logind[1389]: Removed session 9.
+2026-10-13T01:48:25.453466+05:30 ligs-VirtualBox sshd-session[11857]: Accepted password for ligs from 192.168.56.104 port 36564 ssh2
+2026-10-13T01:48:25.460712+05:30 ligs-VirtualBox sshd-session[11857]: pam_unix(sshd:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-10-13T01:48:25.475717+05:30 ligs-VirtualBox systemd-logind[1389]: New session '10' of user 'ligs' with class 'user' and type 'tty'.
+2026-10-13T01:48:25.814219+05:30 ligs-VirtualBox sshd-session[11908]: Received disconnect from 192.168.56.104 port 36564:11: disconnected by user
+2026-10-13T01:48:25.815595+05:30 ligs-VirtualBox sshd-session[11908]: Disconnected from user ligs 192.168.56.104 port 36564
+2026-10-13T01:48:25.817555+05:30 ligs-VirtualBox sshd-session[11857]: pam_unix(sshd:session): session closed for user ligs
+2026-10-13T01:48:25.825654+05:30 ligs-VirtualBox systemd-logind[1389]: Session 10 logged out. Waiting for processes to exit.
+2026-10-13T01:48:25.833903+05:30 ligs-VirtualBox systemd-logind[1389]: Removed session 10.
+2026-10-13T01:48:39.707488+05:30 ligs-VirtualBox sshd-session[11911]: Accepted password for ligs from 192.168.56.104 port 55562 ssh2
+2026-10-13T01:48:39.717424+05:30 ligs-VirtualBox sshd-session[11911]: pam_unix(sshd:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-10-13T01:48:39.747016+05:30 ligs-VirtualBox systemd-logind[1389]: New session '11' of user 'ligs' with class 'user' and type 'tty'.
+2026-10-13T01:48:40.049660+05:30 ligs-VirtualBox sudo: pam_unix(sudo:auth): conversation failed
+2026-10-13T01:48:40.052021+05:30 ligs-VirtualBox sudo: pam_unix(sudo:auth): auth could not identify password for [ligs]
+2026-10-13T01:48:40.055665+05:30 ligs-VirtualBox sshd-session[11962]: Received disconnect from 192.168.56.104 port 55562:11: disconnected by user
+2026-10-13T01:48:40.056520+05:30 ligs-VirtualBox sshd-session[11962]: Disconnected from user ligs 192.168.56.104 port 55562
+2026-10-13T01:48:40.057503+05:30 ligs-VirtualBox sshd-session[11911]: pam_unix(sshd:session): session closed for user ligs
+2026-10-13T01:48:40.063899+05:30 ligs-VirtualBox systemd-logind[1389]: Session 11 logged out. Waiting for processes to exit.
+2026-10-13T01:48:40.070663+05:30 ligs-VirtualBox systemd-logind[1389]: Removed session 11.
+2026-10-13T01:49:30.205151+05:30 ligs-VirtualBox sshd-session[11965]: Connection closed by authenticating user ligs 192.168.56.104 port 58192 [preauth]
+2026-10-13T01:49:37.540061+05:30 ligs-VirtualBox sshd-session[12040]: Accepted password for ligs from 192.168.56.104 port 37626 ssh2
+2026-10-13T01:49:37.544742+05:30 ligs-VirtualBox sshd-session[12040]: pam_unix(sshd:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-10-13T01:49:37.563605+05:30 ligs-VirtualBox systemd-logind[1389]: New session '12' of user 'ligs' with class 'user' and type 'tty'.
+2026-10-13T01:51:28.311935+05:30 ligs-VirtualBox unix_chkpwd[12194]: password check failed for user (ligs)
+2026-10-13T01:51:28.314862+05:30 ligs-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname=ligs uid=1000 euid=0 tty=/dev/pts/1 ruser=ligs rhost=  user=ligs
+2026-10-13T01:52:27.845562+05:30 ligs-VirtualBox unix_chkpwd[12249]: password check failed for user (ligs)
+2026-10-13T01:54:39.979367+05:30 ligs-VirtualBox sshd-session[12040]: syslogin_perform_logout: logout() returned an error
+2026-10-13T01:54:39.985265+05:30 ligs-VirtualBox sshd-session[12085]: Received disconnect from 192.168.56.104 port 37626:11: disconnected by user
+2026-10-13T01:54:40.012198+05:30 ligs-VirtualBox sshd-session[12085]: Disconnected from user ligs 192.168.56.104 port 37626
+2026-10-13T01:54:40.013127+05:30 ligs-VirtualBox sshd-session[12040]: pam_unix(sshd:session): session closed for user ligs
+2026-10-13T01:54:40.017218+05:30 ligs-VirtualBox systemd-logind[1389]: Session 12 logged out. Waiting for processes to exit.
+2026-10-13T01:54:40.023688+05:30 ligs-VirtualBox systemd-logind[1389]: Removed session 12.
+2026-10-13T01:54:40.241326+05:30 ligs-VirtualBox sshd-session[12393]: Connection closed by authenticating user ligs 192.168.56.104 port 38586 [preauth]
+2026-10-13T01:54:51.498419+05:30 ligs-VirtualBox sshd-session[12402]: Accepted password for ligs from 192.168.56.104 port 50972 ssh2
+2026-10-13T01:54:51.499080+05:30 ligs-VirtualBox sshd-session[12402]: pam_unix(sshd:session): session opened for user ligs(uid=1000) by ligs(uid=0)
+2026-10-13T01:54:51.507041+05:30 ligs-VirtualBox systemd-logind[1389]: New session '13' of user 'ligs' with class 'user' and type 'tty'.
+2026-10-13T01:59:51.869060+05:30 ligs-VirtualBox sudo: pam_unix(sudo:auth): conversation failed
+2026-10-13T01:59:51.887945+05:30 ligs-VirtualBox sudo: pam_unix(sudo:auth): auth could not identify password for [ligs]
+2026-10-13T01:59:51.888341+05:30 ligs-VirtualBox sshd-session[12402]: syslogin_perform_logout: logout() returned an error
+2026-10-13T01:59:51.889323+05:30 ligs-VirtualBox sshd-session[12444]: Received disconnect from 192.168.56.104 port 50972:11: disconnected by user
+2026-10-13T01:59:51.891771+05:30 ligs-VirtualBox sshd-session[12444]: Disconnected from user ligs 192.168.56.104 port 50972
+2026-10-13T01:59:51.892379+05:30 ligs-VirtualBox sshd-session[12402]: pam_unix(sshd:session): session closed for user ligs
+2026-10-13T01:59:51.899421+05:30 ligs-VirtualBox systemd-logind[1389]: Session 13 logged out. Waiting for processes to exit.
+2026-10-13T01:59:51.904057+05:30 ligs-VirtualBox systemd-logind[1389]: Removed session 13.
+2026-10-13T02:01:52.779496+05:30 ligs-VirtualBox sshd[1606]: Timeout before authentication for connection from 192.168.56.104 to 192.168.56.102, pid = 12742
+2026-10-13T02:02:31.284236+05:30 ligs-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-10-13T02:05:44.229984+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-10-13T02:05:44.237323+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Incident-Response-Project ; USER=root ; COMMAND=/usr/bin/ss -tunap
+2026-10-13T02:05:44.282246+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T02:07:27.555380+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-10-13T02:07:27.556253+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Incident-Response-Project ; USER=root ; COMMAND=/usr/bin/grep Failed password /var/log/auth.log
+2026-10-13T02:07:27.556798+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T02:07:38.174112+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
+2026-10-13T02:07:38.174337+05:30 ligs-VirtualBox sudo: ligs : TTY=/dev/pts/0 ; PWD=/home/ligs/Incident-Response-Project ; USER=root ; COMMAND=/usr/bin/grep -a Failed password /var/log/auth.log
+2026-10-13T02:07:38.190987+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T02:09:18.784434+05:30 ligs-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ligs(uid=1000)
